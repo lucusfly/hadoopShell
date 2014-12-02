@@ -26,3 +26,5 @@ GetConfig() {
         awk -F '=' '/\['"$1"'\]/{a=1}a==1&&$1~/'"$2"'/{print $2;exit}' $3
     fi
 }
+
+NumberReg='^-?[0-9]+$'
