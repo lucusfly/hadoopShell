@@ -1,1 +1,1 @@
-hadoop and shell function which will improve code efficency 
+hadoop shell function which will improve code efficency 
